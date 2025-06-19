@@ -13,9 +13,20 @@ public class Main {
 
         Dipendente[] dipendenti = {d1, d2, d3};
 
+
+        for (int i = 0; i < dipendenti.length; i++) {
+            System.out.println("Matricola: " + dipendenti[i].getMatricola());
+            System.out.println("Calcolo Stipendi: " + dipendenti[i].calculateSalary());
+        }
+
+        //FOR ALTERNATIVO
+        /*
         for (Dipendente d : dipendenti) {
             System.out.println("Matricola: " + d.getMatricola());
             System.out.println("Calcolo Stipendi: " + d.calculateSalary());
         }
+          */
+
+
     }
 }
