@@ -6,7 +6,7 @@ public class Dirigente extends Dipendente {
     private double stipendioBase;
     private double bonus;
 
-    public Dirigente(int matricola, Dipartimento dipartimento, double bonus) {
+    public Dirigente(int matricola, Dipartimento dipartimento, double stipendioBase, double bonus) {
         super(matricola, dipartimento);
         this.stipendioBase = stipendioBase;
         this.bonus = bonus;

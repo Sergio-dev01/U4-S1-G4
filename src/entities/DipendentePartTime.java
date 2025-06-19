@@ -6,7 +6,7 @@ public class DipendentePartTime extends Dipendente {
     private double stipendioBase;
     private int oreLavorative;
 
-    public DipendentePartTime(int matricola, Dipartimento dipartimento, int oreLavorative) {
+    public DipendentePartTime(int matricola, Dipartimento dipartimento, double stipendioBase, int oreLavorative) {
         super(matricola, dipartimento);
         this.stipendioBase = stipendioBase;
         this.oreLavorative = oreLavorative;
